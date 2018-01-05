@@ -40,17 +40,8 @@ public class loginAction extends HttpServlet {
 			}
 		}
 
-		// PrintWriter out = null;
-		// if ("admol".equals(username)) {
-		// System.out.println(username + " 登录成功");
-		// return "loginSuccess";// 逻辑视图名 跳转页面默认为转发
 		return null;
 	}
-
-	// }return"loginError";
-	//
-	// // System.out.println("213213" + conn);
-	// }
 
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
